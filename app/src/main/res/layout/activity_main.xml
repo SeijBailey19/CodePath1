@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_questions"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="false"
+        android:background="@drawable/card_background"
+        android:textColor="#000000"
+        android:elevation="5dp"
+        android:text="Can you see this question?"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/flashcard_answers"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#41DCA5"
+        android:textColor="#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Yes!"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/toggle_choices_visibility"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="628dp"
+        android:src="@drawable/ic_iconmonstr_eye_8" />
+
+</RelativeLayout>
